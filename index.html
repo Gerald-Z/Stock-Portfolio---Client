@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Stock Portfolio Tracker</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="node_modules\jquery\dist\jquery.min.js"></script>
+
+</head>
+
+<body>
+    <script>
+        $(document).ready(function(){
+      //      $("input").css("display", "block");
+            $("body").attr({style:"background-image: url(img/chart-background-img.jpg)"});
+            $("input").css("margin-top", "5px");
+            $(".textInput").css("border-radius", '10px');
+            $(".textInput").css("height", '30px');
+            $("fieldset").css("background-color", 'rgb(173, 216, 230)');
+            $("fieldset").css("width", '50%');
+            $("fieldset").css("margin-left", '25%');
+            $("fieldset").css("margin-top", '10%');
+            $("fieldset").css("border-radius", '10px');
+            $(".center").css("margin-top", "25px");
+            $(".center").css("text-align", "center");
+            $("label").css("font-family", 'cursive');
+            $("#submit").css("background-color", "rgb(2, 117, 216)");
+            $(".space").css("margin", "0px");
+            $(".space").css("margin-top", "150px");
+            $(".space").css("padding", "0px");
+       //     $(".space").css("background-color", "white");
+            $(".space").css("height", "50px");
+        });
+    </script>
+
+    <form>
+        <fieldset>
+            <div class="center"><p>Log in to Stock Portfolio Tracker</p></div>
+            <div class="center"><label id="username-label">Username: <input type="text" class="textInput" required> </label></div>
+            <div class="center"><label id="password-label">Password: <input type="password" class="textInput" required> </label></div>
+            <div class="center"><input type="submit" class="textInput" id="submit" value="Log In">  </div>
+            
+            <div class="space">
+                <div class="center"><a href="new_user.html"><p>New user? Click here to create an account!</p></a></div>
+            </div>
+
+            
+         </fieldset>
+        
+    </form>
+
+
+
+
+</body>
+
+
+</html>
