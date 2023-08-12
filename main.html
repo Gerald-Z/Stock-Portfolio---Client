@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Stock Portfolio Tracker</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="node_modules\jquery\dist\jquery.min.js"></script>
+    <link href="main_style.css" rel="stylesheet">
+</head>
+
+<body>
+    <script>
+        $(document).ready(function(){
+            $("body").attr({style:"background-image: url(img/chart-background-img.jpg)"});
+            $("#submit").attr("onClick", "document.location='main.html'");
+        });
+    </script>
+
+
+    <form>
+        <fieldset>
+            <div class="center"><p>Here Are Your Current Positions:</p></div>
+            
+            <table class="stock-list">
+                <tr>
+                    <th>Company Name</th>
+                    <th>Ticker Symbol</th>
+                    <th>Shares Owned</th>
+                    <th>Share Price</th>
+                    <th>Total Cost</th>
+                    <th>Total Value</th>
+                    <th>Estimated Dividend Payout</th>
+                    <th>Estimated Dividend Yield</th>
+                </tr>
+                <tr>
+                    <td>JP Morgan</td>
+                    <td>JPM</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>10000</td>
+                    <td>10000</td>
+                    <td>100</td>
+                    <td>100</td>
+                </tr>
+                <tr>
+                    <td>JP Morgan</td>
+                    <td>JPM</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>10000</td>
+                    <td>10000</td>
+                    <td>100</td>
+                    <td>100</td>
+                </tr>
+            </table>
+            
+            
+ 
+
+            <div class="space">
+                <div class="center"><a href="new_user.html"><p>Click Here to Add a Position</p></a></div>
+            </div>
+
+            
+         </fieldset>
+        
+    </form>
+
+
+
+
+</body>
+
+
+</html>
